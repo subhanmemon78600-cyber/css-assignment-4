@@ -1,0 +1,143 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: gray;
+    width: 100%;
+    margin: auto;
+
+
+
+}
+
+.Name {
+
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    padding: 15px;
+    color: lightgray;
+}
+
+
+.nav_links {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-right: 200px;
+    list-style-type: none;
+}
+
+a:link {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.intro {
+
+    background: gray;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+   
+    border-radius: 50%;
+
+
+}
+
+.intro1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.intro2 {
+    margin-left: 170px;
+
+
+}
+
+.subhan {
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Hire {
+
+    background-color: darkgray;
+    width: 200px;
+    height: 30px;
+}
+
+.Hire:hover {
+
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.skills{
+    margin-top: 20px;
+    background-color: gray;
+    padding: 10px;  
+    border-radius: 10px;
+}
+
+.skillheading {
+    margin-left: 20px; ;
+}
+    
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: space-around;
+    
+    
+}
+
+.skill1 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.skill2 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.skill3 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.skill4 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
